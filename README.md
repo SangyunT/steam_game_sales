@@ -32,11 +32,11 @@ The evaluation metric used is the **accuracy**, and the final model is the **mul
 
 Lastly, based on the outputs from the final model, this project provides 3 actionable insights:
 
-1. PLACEHOLDER
+1. **In-game event to encourage ratings on steam**. This is to maximize users inputing ratings on Steam, as the number of ratings is one of the most important feature in determining the sales class.
 
-2. PLACEHOLDER
+2. **Strategy, education and multi-player genres**. These genres appear to increase sales especially in high and medium sales category. Developing a new game that can be categorized into strategy, education, or multi-player genres can be beneficial for maximizing revenue.
 
-3. PLACEHOLDER
+3. **Consider early access before official launch**. This strategy can maximize hype around the official launch, and potentially increase sales.
 
 If you have any questions, pleace contact:
 
