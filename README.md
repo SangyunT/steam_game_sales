@@ -14,7 +14,7 @@ The dataset was create using [SteamSpy](https://nik-davis.github.io/posts/2019/s
 
 ## Methods
 
-First, some filters are applied to focus on a subset of the dataset. Specifically, this project focuses on english games that are compatible with windows. Also, the price per unit is focusing on below $100. Several features are engineered, including all **genres** of games, **total number of rating**, **ratio of positive ratings**, **low** and **high sales**, and **sales average**. It is important to note that there are some **limitations** to the dataset. For example, sequal informations are not available but having series of games can greatly influence sales of the games. Another limitation is that sales can only be inferred based on low and high number of owners and price per unit.
+First, some filters are applied to focus on a subset of the dataset. Specifically, this project focuses on english games that are compatible with windows. Also, the price per unit is focusing on below $100. Several features are engineered, including all **genres** of games, **total number of rating**, **ratio of positive ratings**, **low** and **high sales**, and **sales average**. It is important to note that there are some **limitations** to the dataset. For example, sequel informations are not available but having series of games can greatly influence sales of the games. Another limitation is that sales can only be inferred based on low and high number of owners and price per unit.
 
 Several models are implemented to investigate influencial factors when predicting sales, and here are the models explored:
 
