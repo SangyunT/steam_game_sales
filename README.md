@@ -14,11 +14,9 @@ The dataset was create using [SteamSpy](https://nik-davis.github.io/posts/2019/s
 
 ## Methods
 
-First, some filters are applied to focus on a subset of the dataset. Specifically, this project focuses on english games that are compatible with windows. Also, the price per unit is focusing on below $100. Several features are engineered, including all **genres** of games, **total number of rating**, **ratio of positive ratings**, **low** and **high sales**, and **sales average**.
+First, some filters are applied to focus on a subset of the dataset. Specifically, this project focuses on english games that are compatible with windows. Also, the price per unit is focusing on below $100. Several features are engineered, including all **genres** of games, **total number of rating**, **ratio of positive ratings**, **low** and **high sales**, and **sales average**. It is important to note that there are some **limitations** to the dataset. For example, sequal informations are not available but having series of games can greatly influence sales of the games. Another limitation is that sales can only be inferred based on low and high number of owners and price per unit.
 
-Limitation.
-
-Modeling (target variable, features)
+Several models are implemented to investigate influencial factors when predicting sales, and here are the models explored:
 
 1. Baseline model (Dummy Classifier)
 
@@ -28,8 +26,20 @@ Modeling (target variable, features)
 
 4. Logistic Regression
 
+The evaluation metric used is the **accuracy**, and the final model is the **multinomial logistic regression** model. The coefficients from the logistic regression model can provide useful information on not only the important features but also help interpret in terms of sales prediction.
+
 ## Conclusions
 
+Lastly, based on the outputs from the final model, this project provides 3 actionable insights:
 
+1. PLACEHOLDER
+
+2. PLACEHOLDER
+
+3. PLACEHOLDER
+
+If you have any questions, pleace contact:
+
+Sangyun (Yun) Thom: [sangyun.thom@gmail.com](mailto:sangyun.thom@gmail.com)
 
 ## Repository Structure
