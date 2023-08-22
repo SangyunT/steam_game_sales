@@ -10,11 +10,15 @@ There are many factors going into having a successful launch of a newly develope
 
 ## Data Overview
 
-The dataset was create using [SteamSpy](https://nik-davis.github.io/posts/2019/steam-data-collection/) gathering from the [Steam Store](https://store.steampowered.com/). The ready-to-use format of the dataset was provided by this [Kaggle page](https://www.kaggle.com/datasets/nikdavis/steam-store-games).
+The dataset was create using [SteamSpy](https://nik-davis.github.io/posts/2019/steam-data-collection/) gathering from the [Steam Store](https://store.steampowered.com/). The ready-to-use format of the dataset was provided by this [Kaggle page](https://www.kaggle.com/datasets/nikdavis/steam-store-games). There are over 27,000 games listed in the dataset, and some important features include genres, ratings, number of owners, and price per unit.
 
 ## Methods
 
-First, some filters are applied to focus on a subset of the dataset. Specifically, this project focuses on english games that are compatible with windows. Also, the price per unit is focusing on below $100. Several features are engineered, including all **genres** of games, **total number of rating**, **ratio of positive ratings**, **low** and **high sales**, and **sales average**. It is important to note that there are some **limitations** to the dataset. For example, sequel informations are not available but having series of games can greatly influence sales of the games. Another limitation is that sales can only be inferred based on low and high number of owners and price per unit.
+First, some filters are applied to focus on a subset of the dataset. Specifically, this project focuses on english games that are compatible with windows. Also, the price per unit is focusing on below $100. Several features are engineered, including all **genres** of games, **total number of rating**, **ratio of positive ratings**, **low** and **high sales**, and **sales average**. **Sales catgory** is created by using the sales average feature, and binning into 3 separate classes following the interquartile range: **low** for the low 25%, **high** for the upper 25%, and **medium** for everything below. The pie chart below illustrates overall distribution of the sales category, which serves as a **target variable**.
+
+![image](./images/sales_category_pie_chart.png)
+
+It is important to note that there are some **limitations** to the dataset. For example, sequel informations are not available but having series of games can greatly influence sales of the games. Another limitation is that sales can only be inferred based on low and high number of owners and price per unit.
 
 Several models are implemented to investigate influencial factors when predicting sales, and here are the models explored:
 
@@ -43,3 +47,11 @@ If you have any questions, pleace contact:
 Sangyun (Yun) Thom: [sangyun.thom@gmail.com](mailto:sangyun.thom@gmail.com)
 
 ## Repository Structure
+
+├── .gitignore
+
+├── images
+
+├── index.ipynb
+
+├── steam.csv
