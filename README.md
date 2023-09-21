@@ -6,7 +6,7 @@ This project aims to analyze the Steam games sales data to determine influential
 
 ## Business Situation
 
-There are many factors going into having a successful launch of a newly developed video game, and these factors include platform, genre, user count, and rating. Knowing how these features influence the sales of 
+There are many factors going into having a successful launch of a newly developed video game, and these factors include platform, genre, user count, and rating. Knowing how these features influence the sales of a new video game can be beneficial.
 
 ## Data Overview
 
